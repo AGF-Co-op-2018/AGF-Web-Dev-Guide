@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Survival Guide to Web Dev at AGF</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="resources/favicon.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="top.js"></script> 
+</head>
+<body>
+
+  <!-- Nav pills -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <span href="#top"><img src="resources/AGF_logo.png" alt="AGF Tiger Logo" class="navbar-brand"></span>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="nav nav-pills" role="tablist">
+      <li class="nav-item pill-start">
+          <a class="nav-link active" data-toggle="pill" href="#start">Starting Out</a>
+        </li>
+        <li class="nav-item pill-pdf">
+          <a class="nav-link" data-toggle="pill" href="#pdf">PDF Prep</a>
+        </li>
+        <li class="nav-item pill-share">
+          <a class="nav-link" data-toggle="pill" href="#share">SharePoint</a>
+        </li>
+      </ul>
+    </div>
+    <a href="javascript:window.print()"><button class="print-button"><span class="print-icon" align="right"></span></button></a>
+  </nav>
+</header>
+<button onclick="topFunction()" id="topBtn" title = "Go to top">Top</button>
+<div class="container">
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div id="start" class="container tab-pane fade show active">
+      <div class="row justify-content-md-center">
+        <h1>Starting Out</h1>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <img src="resources/prepchrome.jpg" alt="chrome bookmarks" width=100%>
+        </div>
+        <div class="col-6">
+          <h2>Chrome Setup</h2>
+          <p>On the left are some recommended bookmarks.</p>
+          <p><a href="http://cascade01v:8080/login.act">Old Cascade</a>: This one is where <a href="http://smartlink/sma/smaweb/en/index.jsp">SMARTlink</a> is.             
+          </p>
+          <p><a href="http://cascade-pv01:8080/login.act">New Cascade</a>: This one is where the <a href="https://www.agf.com/ca/en/index.jsp">main AGF.com</a> is. It is a good idea to also have the <a href="http://webqa.agf.com/ca/en/index.jsp">demo server</a> bookmarked.           
+          </p>
+          <p><a href="http://www.agfiq.com/">AGFiQ</a>: This site is also on the New Cascade. It is a good idea to also have the <a href="http://webqa.agf.com/agfiq/agfiqweb/ca/en/index.jsp">demo server</a> bookmarked.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <img src="resources/prepie.jpg" alt="ie bookmarks" width=100%>
+        </div>
+        <div class="col-6">
+          <h2>Internet Explorer Setup</h2>
+          <p>I'm very sorry, but you really do need Internet Explorer at times. On the left are some recommended bookmarks.</p>
+          <p><a href="http://agfcollab/product/411/default.aspx">Product 411</a>: Bookmark this, you need to post Week in Reviews (see below) and other blog posts here.          
+          </p>
+          <p><a href="http://agfcollab/ws/dap/Lists/Tasks/eMarketing.aspx">Tasks</a>: Here is the list of SMARTrequests on SharePoint that you should be doing. More information <a href="secC1">below</a>
+          </p>
+          <p><a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Week in Review</a>: As soon as you are completed a request please post here. More infomation <a href="secC3">below</a>.
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <img src="resources/prepprint.jpg" alt="printpage" width=100%>
+        </div>
+        <div class="col-6">
+          <h2>Printing</h2>
+          <p>At least for us, our computers didn't have printing capabilities. There is another way to print.</p>
+          <p><a href="http://agf059.na.intra.agf.com/print/index.php">Enter the Internet Print Client</a>: Bookmark this too, by the way.         
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="pdf" class="container tab-pane fade">
+      <div class="row justify-content-md-center">
+        <h1>PDF Preparation</h1>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <img src="resources/pdfword.jpg" alt="save as PDF" width=100%>
+        </div>
+        <div class="col-6">
+          <h2>General</h2>
+          <p>If it is given to you as a Word Document, and it needs to be uploaded, chances are you should convert it to PDF format first.</p>
+          <p>If it is given to you as a PDF Document, check if it has been prepared by pressing Ctrl-D. If it isn't, see below and Ctrl-S (save) when done.</p>
+          <p><a href="agf-pdf.txt">Here is a reference sheet that will help you on this matter. Save it for quick access.</a></p>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <img src="resources/pdfmetadata.jpg" alt="PDF metadata" width=100%>
+        </div>
+        <div class="col-6">
+          <h2>Metadata</h2>
+          <p>Change the Title and Author. Usually Author will be AGF Investments Inc. for English documents and Placements AGF Inc. for French documents.</p>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <img src="resources/pdfsecurity.jpg" alt="PDF Security tab" width=100%>
+        </div>
+        <div class="col-6">
+          <h2>Security</h2>
+          <p>This one, the second tab, is important. This ensures our PDFs cannot have its contents copy-pasted and is a small security safeguard that is part of policy.</p>
+          <ol>
+            <li>Check "Restrict Editing..." and the shaded out section will become available.</li>
+            <li>Printing method should be "HIGH RESOLUTION"</li>
+            <li>The Permissions password is "agfagf"</li>
+            <li>The Compatibility should be changed to "Acrobat 6.0 and later".</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center">
+        <div class="col-6">
+          <img src="resources/pdfinitview.jpg" alt="PDF Initial View tab" width=100%>
+        </div>
+        <div class="col-6">
+          <h2>Initial View</h2>
+          <p>The fourth tab. Just make sure the layout is "Single Page" and the Magnification is set to "Fit Width".</p>
+        </div>
+      </div>
+
+    </div>
+    <div id="share" class="container tab-pane fade">
+     <div class="row justify-content-md-center">
+      <h1>SharePoint</h1>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col-6">
+        <img src="resources/spstart.jpg" alt="assign to yourself" width=100%>
+      </div>
+      <div class="col-6">
+        <h2>Starting Request</h2>
+        <p>When you first access the <a href="http://agfcollab/ws/dap/Lists/Tasks/eMarketing.aspx">eMarketing Tasks</a> page, there are certain tasks assigned to "DAP eMarketing" that have not been started yet. They should be completed in order of priority (see due date).</p>
+        <p>Click on the "Task Name" and edit task. Assign to yourself, and set the "Task Status" as "Started". This will indicate to other people that you have started this task (one task does not need the same person doing it twice!). This just for good communication.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-6">
+        <img src="resources/sprfr.jpg" alt="ready for review" width=100%>
+      </div>
+      <div class="col-6">
+        <h2>Ready for Review</h2>
+        <p>Once a task has been completed, you must ask for it to be approved.</p>
+        <p>Assign to the recipient. Set task status as "Ready for Review". Remember to insert all relevant links i.e where did you post it? If it is on the agf.com or agfiq site, you should send the demo links as the full site would not have the changes yet. Also a direct link to the file uploaded would be needed. As soon as you submit, an email will be sent out.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-6">
+        <img src="resources/spwir.jpg" alt="Week in review" width=100%>
+      </div>
+      <div class="col-6">
+        <h2>Logging Progress</h2>
+        <p>Usually tasks require a little bit of back and forth via "Return"ed SMARTrequests. However, as soon as a task has been approved (and published), you should log it in the <a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Week in Review</a>.</p>
+        <ol>
+          <li>Add new item.</li>
+          <li>Make a title (usually name of document or SMARTrequest)</li>
+          <li>Paste the link of the document (i.e. pdf) in the appropriate place i.e. Investor if on agf.com</li>
+          <li>Save</li>
+        </ol>
+        <p> Notes: </p>
+        <ul>
+          <li>If there are lots of separate documents, list each separately.</li>
+          <li>Do not paste the webqa/demo links i.e Only do this once the task has been approved and published.</li>
+          <li>Do not paste the index link.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-6">
+        <img src="resources/spcomplete.jpg" alt="Completing a request" width=100%>
+      </div>
+      <div class="col-6">
+        <h2>Completing Request</h2>
+        <p>Only once a task has been approved and logged can you remove it from the queue. This is because it will be much more difficult to access this request after doing this step.</p>
+        <ol>
+          <li>Assign to yourself.</li>
+          <li>Set Task status to "Complete". Save. You will be taken back to eMarketing tasks, sans the task you just completed.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
