@@ -100,6 +100,27 @@ background-color: #555;
 color: white;
 }
 
+.nav-pills .pill-start .nav-link:active {
+    
+background-color: #aaa;
+
+color: white;
+}
+
+.nav-pills .pill-pdf .nav-link:active {
+    
+background-color: #aaa;
+
+color: white;
+}
+
+.nav-pills .pill-share .nav-link:active {
+    
+background-color: #aaa;
+
+color: white;
+}
+
 .nav-pills .pill-start .nav-link {
     
 background-color: #ED5A36;
