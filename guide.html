@@ -14,7 +14,7 @@
 </head>
 <body>
 
-  <!-- Nav pills -->
+  <!-- Navigation bar-->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
      <span href="#top"><img src="resources/AGF_logo.png" alt="AGF Tiger Logo" class="navbar-brand"></span>
@@ -22,8 +22,10 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <!-- Dynamic nav pills -->
       <ul class="nav nav-pills" role="tablist">
-      <li class="nav-item pill-start">
+        <li class="nav-item pill-start">
           <a class="nav-link active" data-toggle="pill" href="#start">Starting Out</a>
         </li>
         <li class="nav-item pill-pdf">
@@ -32,18 +34,29 @@
         <li class="nav-item pill-share">
           <a class="nav-link" data-toggle="pill" href="#share">SharePoint</a>
         </li>
+        <li class="nav-item pill-cascade">
+          <a class="nav-link" data-toggle="pill" href="#cascade">Cascade</a>
+        </li>
+        <li class="nav-item pill-week">
+        <a class="nav-link" data-toggle="pill" href="#week">Week in Review</a>
+        </li>
       </ul>
     </div>
     <a href="javascript:window.print()"><button class="print-button"><span class="print-icon" align="right"></span></button></a>
   </nav>
 </header>
+
+<!--Go to top button -->
 <button onclick="topFunction()" id="topBtn" title = "Go to top">Top</button>
+
 <div class="container">
   <!-- Tab panes -->
   <div class="tab-content">
+
+    <!-- Starting Out -->
     <div id="start" class="container tab-pane fade show active">
       <div class="row justify-content-md-center">
-        <h1>Starting Out</h1>
+        <img src = "resources/start.png">
       </div>
       <div class="row justify-content-md-center">
         <div class="col-6">
@@ -60,7 +73,6 @@
           </p>
         </div>
       </div>
-
       <div class="row justify-content-md-center">
         <div class="col-6">
           <img src="resources/prepie.jpg" alt="ie bookmarks" width=100%>
@@ -70,9 +82,9 @@
           <p>I'm very sorry, but you really do need Internet Explorer at times. On the left are some recommended bookmarks.</p>
           <p><a href="http://agfcollab/product/411/default.aspx">Product 411</a>: Bookmark this, you need to post Week in Reviews (see below) and other blog posts here.          
           </p>
-          <p><a href="http://agfcollab/ws/dap/Lists/Tasks/eMarketing.aspx">Tasks</a>: Here is the list of SMARTrequests on SharePoint that you should be doing. More information <a href="secC1">below</a>
+          <p><a href="http://agfcollab/ws/dap/Lists/Tasks/eMarketing.aspx">Tasks</a>: Here is the list of SMARTrequests on SharePoint that you should be doing. See the Sharepoint section for more information.
           </p>
-          <p><a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Week in Review</a>: As soon as you are completed a request please post here. More infomation <a href="secC3">below</a>.
+          <p><a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Week in Review</a>: As soon as you are completed a request please post here. See the Week in Review section for more information.
           </p>
         </div>
       </div>
@@ -89,9 +101,11 @@
         </div>
       </div>
     </div>
+
+    <!-- PDF Prep -->
     <div id="pdf" class="container tab-pane fade">
       <div class="row justify-content-md-center">
-        <h1>PDF Preparation</h1>
+      <img src="resources/pdf.png" >
       </div>
       <div class="row justify-content-md-center">
         <div class="col-6">
@@ -140,11 +154,12 @@
           <p>The fourth tab. Just make sure the layout is "Single Page" and the Magnification is set to "Fit Width".</p>
         </div>
       </div>
-
     </div>
+
+    <!-- SharePoint -->
     <div id="share" class="container tab-pane fade">
      <div class="row justify-content-md-center">
-      <h1>SharePoint</h1>
+      <img src="resources/sharepointlogo.png">
     </div>
     <div class="row justify-content-md-center">
       <div class="col-6">
@@ -189,7 +204,6 @@
         </ul>
       </div>
     </div>
-
     <div class="row justify-content-md-center">
       <div class="col-6">
         <img src="resources/spcomplete.jpg" alt="Completing a request" width=100%>
@@ -204,7 +218,95 @@
       </div>
     </div>
   </div>
-</div>
+  <!-- New Cascade -->
+  <div id="cascade" class="container tab-pane fade">
+    <div class="row justify-content-md-center">
+    <img src="resources/cascadelogo.png" >
+    </div>
+
+    <div class="row justify-content-md-center">
+
+     <div class="col-6">
+      <img src="resources/dropdown-cascade.png" width="100%">
+    </div>
+
+    <div class="col-6">
+      <h2>Switching Sites</h2>
+      <p>You will probably need to switch sites first before doing anything. This can be done by accessing the dropdown menu at the top left corner of Cascade. You will most likely be in "AGF Files" for most of your tasks.
+        </p>  
+      </div>
+      </div>
+
+ <div class="row justify-content-md-center">
+      <div class="col-6">
+        <img src="resources/editing.jpg" alt="Image of AGF Files page" width="100%" >
+      </div>
+
+      <div class="col-6">
+        <h2>Uploading Files</h2>
+        <p>Sometimes you'll need to upload a file like a PDF or an image file to Cascade</p>
+        <p>Navigate to the folder you are uploading the file or document to. There's probably a similar file in the folder, so copy it and click on "Edit". Edit anything you need to (title, summary, date, etc.) and keep in mind of the naming conventions from the other files in the folder. Drag the file that you're uploading to the bottom of the content tab where it says "Drop a file here". Hit submit, uncheck "use workflow", and publish the file.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-6">
+        <img src="resources/relationships.jpg" alt="Image of relationships" width="100%">
+      </div>
+
+      <div class="col-6">
+        <h2>Replacing Files</h2>
+        <p>You may need to replace a PDF, image file, or other files in Cascade.</p>
+        <p>Navigate to the folder containing the file you're replacing. Open the file you're replacing and click on the "Edit" button on the top right. You may or may not need to edit the title or any other information depending on the request. Drag the new file to the bottom of the content tab. Submit, uncheck "use workflow", and publish the file. If the file is being used somewhere on the site, click on "More" and go to relationships. Click on the pages under relationships and publish them to update them with the new file.</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center">
+      <div class="col-6">
+        <img src="resources/sourcetext.jpg" alt="Image of sourcetext" width="100%">
+      </div>
+
+      <div class="col-6">
+        <h2>Editing Text</h2>
+        <p>You will often need to edit some text for the AGF website such as an article or a module on the site.</p>
+        <p>First find the page you will be working on through Cascade. The search bar at the top right of Cascade can be handy to find the page. Once you're at the page, click on "Edit". Scroll down a bit and you'll see some items. Find the item containing the text you'll be editing and click on "Source Code" (the icon that looks like "&lt;&gt;") to edit the text. Be careful with the formatting if you're not familiar with HTML. Replace or change the text inside (it'll probably be between the "&lt;p&gt;&lt;/p&gt;" for content and "&lt;h1&gt;&lt;/h1&gt;" or something similar for headings). Submit, uncheck "use workflow" and publish the site.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Week in Review -->
+ <div id="week" class="container tab-pane fade">
+    <div class="row justify-content-md-center">
+    <img src="resources/weekrev.png">
+    </div>
+
+     <div class="row justify-content-md-center">
+
+      <div class="col-6">
+        <img src="resources/newupdate.png" alt="Image of Week in Review page" width="100%" >
+      </div>
+      <div class="col-6">
+        <h2>Adding an Update</h2>
+        <p>Once you're at the Week in Review page, click on "Document Updates Week in Review" unless you have been specifically instructed to create an item in the "Webpage Updates Week in Review" page. Click "new item" near the top of the page.</p>
+      </div>
+    </div>
+
+ 
+
+    <div class="row justify-content-md-center">
+      <div class="col-6">
+        <img src="resources/weekinfo.png" alt="Image of creating a new update" width="100%">
+      </div>
+      <div class="col-6">
+        <h2>Inputting the Info</h2>
+        <p>Fill in the information as needed, including whether it is a new document or an update to one. The fields after the date field are where you insert the relevant links. You will mainly be pasting Smartlink links so focus on SMARTLink EN and SMARTLink FR. Hit save and you're done!</p>
+      </div>
+    </div>
+
+    
+    </div>
+  </div>
+
 </div>
 
 </body>

@@ -78,6 +78,18 @@ background-color: #f8f9fa;
 color: black;
 }
 
+.nav-pills .pill-cascade .nav-link:not(.active) {
+
+background-color: #f8f9fa;
+color: black;
+}
+
+.nav-pills .pill-week .nav-link:not(.active) {
+
+background-color: #f8f9fa;
+color: black;
+}
+
 
 .nav-pills .pill-start .nav-link:hover {
     
@@ -100,6 +112,21 @@ background-color: #555;
 color: white;
 }
 
+.nav-pills .pill-cascade .nav-link:hover {
+    
+background-color: #555;
+
+color: white;
+}
+
+
+.nav-pills .pill-week .nav-link:hover {
+    
+background-color: #555;
+
+color: white;
+}
+
 .nav-pills .pill-start .nav-link:active {
     
 background-color: #aaa;
@@ -113,6 +140,21 @@ background-color: #aaa;
 
 color: white;
 }
+
+.nav-pills .pill-cascade .nav-link:active {
+    
+background-color: #aaa;
+
+color: white;
+}
+
+.nav-pills .pill-week .nav-link:active {
+    
+background-color: #aaa;
+
+color: white;
+}
+
 
 .nav-pills .pill-share .nav-link:active {
     
@@ -141,6 +183,21 @@ background-color: #ED5A36;
 
 color: white;
 }
+
+.nav-pills .pill-cascade .nav-link {
+    
+background-color: #ED5A36;
+
+color: white;
+}
+
+.nav-pills .pill-week .nav-link {
+    
+background-color: #ED5A36;
+
+color: white;
+}
+
 
 
 .print-button {
