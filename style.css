@@ -90,6 +90,12 @@ background-color: #f8f9fa;
 color: black;
 }
 
+.nav-pills .pill-411 .nav-link:not(.active) {
+
+background-color: #f8f9fa;
+color: black;
+}
+
 
 .nav-pills .pill-start .nav-link:hover {
     
@@ -127,6 +133,15 @@ background-color: #555;
 color: white;
 }
 
+.nav-pills .pill-411 .nav-link:hover {
+    
+background-color: #555;
+
+color: white;
+}
+
+
+
 .nav-pills .pill-start .nav-link:active {
     
 background-color: #aaa;
@@ -163,6 +178,14 @@ background-color: #aaa;
 color: white;
 }
 
+.nav-pills .pill-411 .nav-link:active {
+    
+background-color: #aaa;
+
+color: white;
+}
+
+
 .nav-pills .pill-start .nav-link {
     
 background-color: #ED5A36;
@@ -198,6 +221,13 @@ background-color: #ED5A36;
 color: white;
 }
 
+
+.nav-pills .pill-411 .nav-link {
+    
+background-color: #ED5A36;
+
+color: white;
+}
 
 
 .print-button {
