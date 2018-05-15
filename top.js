@@ -1,6 +1,15 @@
-window.onscroll = function() {scrollFunction()};
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#topBtn').fadeIn();
+    } else {
+        $('#topBtn').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#topBtn").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+});
