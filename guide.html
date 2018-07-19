@@ -17,386 +17,453 @@
   <!-- Navigation bar-->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-     <span href="#top"><img src="resources/AGF_logo.png" alt="AGF Tiger Logo" class="navbar-brand"></span>
-     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <span href="#top"><img src="resources/AGF_logo.png" alt="AGF Tiger Logo" class="navbar-brand" />
+      </span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <!-- Dynamic nav pills -->
-      <ul class="nav nav-pills" role="tablist">
-        <li class="nav-item pill-start">
-          <a class="nav-link active" data-toggle="pill" href="#start">Starting Out</a>
-        </li>
-        <li class="nav-item pill-pdf">
-          <a class="nav-link" data-toggle="pill" href="#pdf">PDF Prep</a>
-        </li>
-        <li class="nav-item pill-share">
-          <a class="nav-link" data-toggle="pill" href="#share">SharePoint</a>
-        </li>
-        <li class="nav-item pill-cascade">
-          <a class="nav-link" data-toggle="pill" href="#cascade">Cascade</a>
-        </li>
-        <li class="nav-item pill-week">
-          <a class="nav-link" data-toggle="pill" href="#week">Week in Review</a>
-        </li>
-        <li class="nav-item pill-411">
-          <a class="nav-link" data-toggle="pill" href="#411">Product 411</a>
-        </li>
-      </ul>
-    </div>
-    <a href="javascript:window.print()"><button class="print-button"><span class="print-icon" align="right"></span></button></a>
-  </nav>
-</header>
-
-<!--Go to top button -->
-<a id="topBtn" href="#">Back to top</a>
-
-<div class="container">
-  <!-- Tab panes -->
-  <div class="tab-content">
-
-    <!-- Starting Out -->
-    <div id="start" class="container tab-pane fade show active">
-      <div class="row justify-content-md-center">
-        <img src = "resources/start.png">
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col-6">
-          <img src="resources/prepchrome.jpg" alt="chrome bookmarks" width=100%>
-        </div>
-        <div class="col-6">
-          <h2>Chrome Setup</h2>
-          <p>On the left are some recommended bookmarks.</p>
-          <p><a href="http://cascade01v:8080/login.act">Old Cascade</a>: This one is where <a href="http://smartlink/sma/smaweb/en/index.jsp">SMARTlink</a> is.             
-          </p>
-          <p><a href="http://cascade-pv01:8080/login.act">New Cascade</a>: This one is where the <a href="https://www.agf.com/ca/en/index.jsp">main AGF.com</a> is. It is a good idea to also have the <a href="http://webqa.agf.com/ca/en/index.jsp">demo server</a> bookmarked.           
-          </p>
-          <p><a href="http://www.agfiq.com/">AGFiQ</a>: This site is also on the New Cascade. It is a good idea to also have the <a href="http://webqa.agf.com/agfiq/agfiqweb/ca/en/index.jsp">demo server</a> bookmarked.
-          </p>
-        </div>
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col-6">
-          <img src="resources/prepie.jpg" alt="ie bookmarks" width=100%>
-        </div>
-        <div class="col-6">
-          <h2>Internet Explorer Setup</h2>
-          <p>I'm very sorry, but you really do need Internet Explorer at times. On the left are some recommended bookmarks.</p>
-          <p><a href="http://agfcollab/product/411/default.aspx">Product 411</a>: Bookmark this, you need to post Week in Reviews (see below) and other blog posts here.          
-          </p>
-          <p><a href="http://agfcollab/ws/dap/Lists/Tasks/eMarketing.aspx">Tasks</a>: Here is the list of SMARTrequests on SharePoint that you should be doing. See the Sharepoint section for more information.
-          </p>
-          <p><a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Week in Review</a>: As soon as you are completed a request please post here. See the Week in Review section for more information.
-          </p>
-        </div>
-      </div>
-
-      <div class="row justify-content-md-center">
-        <div class="col-6">
-          <img src="resources/prepprint.jpg" alt="printpage" width=100%>
-        </div>
-        <div class="col-6">
-          <h2>Printing</h2>
-          <p>At least for us, our computers didn't have printing capabilities. There is another way to print.</p>
-          <p><a href="http://agf059.na.intra.agf.com/print/index.php">Enter the Internet Print Client</a>: Bookmark this too, by the way.         
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- PDF Prep -->
-    <div id="pdf" class="container tab-pane fade">
-      <div class="row justify-content-md-center">
-        <img src="resources/pdf.png" >
-      </div>
-      <div class="row justify-content-md-center">
-        <div class="col-6">
-          <img src="resources/pdfword.jpg" alt="save as PDF" width=100%>
-        </div>
-        <div class="col-6">
-          <h2>General</h2>
-          <p>If it is given to you as a Word Document, and it needs to be uploaded, chances are you should convert it to PDF format first.</p>
-          <p>If it is given to you as a PDF Document, check if it has been prepared by pressing Ctrl-D. If it isn't, see below and Ctrl-S (save) when done.</p>
-          <p><a href="agf-pdf.txt">Here is a reference sheet that will help you on this matter. Save it for quick access.</a></p>
-        </div>
-      </div>
-
-      <div class="row justify-content-md-center">
-        <div class="col-6">
-          <img src="resources/pdfmetadata.jpg" alt="PDF metadata" width=100%>
-        </div>
-        <div class="col-6">
-          <h2>Metadata</h2>
-          <p>Change the Title and Author. Usually Author will be AGF Investments Inc. for English documents and Placements AGF Inc. for French documents.</p>
-        </div>
-      </div>
-
-      <div class="row justify-content-md-center">
-        <div class="col-6">
-          <img src="resources/pdfsecurity.jpg" alt="PDF Security tab" width=100%>
-        </div>
-        <div class="col-6">
-          <h2>Security</h2>
-          <p>This one, the second tab, is important. This ensures our PDFs cannot have its contents copy-pasted and is a small security safeguard that is part of policy.</p>
-          <ol>
-            <li>Check "Restrict Editing..." and the shaded out section will become available.</li>
-            <li>Printing method should be "HIGH RESOLUTION"</li>
-            <li>The Permissions password is "agfagf"</li>
-            <li>The Compatibility should be changed to "Acrobat 6.0 and later".</li>
-          </ol>
-        </div>
-      </div>
-
-      <div class="row justify-content-md-center">
-        <div class="col-6">
-          <img src="resources/pdfinitview.jpg" alt="PDF Initial View tab" width=100%>
-        </div>
-        <div class="col-6">
-          <h2>Initial View</h2>
-          <p>The fourth tab. Just make sure the layout is "Single Page" and the Magnification is set to "Fit Width".</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- SharePoint -->
-    <div id="share" class="container tab-pane fade">
-     <div class="row justify-content-md-center">
-      <img src="resources/sharepointlogo.png">
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-6">
-        <img src="resources/spstart.jpg" alt="assign to yourself" width=100%>
-      </div>
-      <div class="col-6">
-        <h2>Starting Request</h2>
-        <p>When you first access the <a href="http://agfcollab/ws/dap/Lists/Tasks/eMarketing.aspx">eMarketing Tasks</a> page, there are certain tasks assigned to "DAP eMarketing" that have not been started yet. They should be completed in order of priority (see due date).</p>
-        <p>Click on the "Task Name" and edit task. Assign to yourself, and set the "Task Status" as "Started". This will indicate to other people that you have started this task (one task does not need the same person doing it twice!). This just for good communication.</p>
-      </div>
-    </div>
-
-    <div class="row justify-content-md-center">
-      <div class="col-6">
-        <img src="resources/sprfr.jpg" alt="ready for review" width=100%>
-      </div>
-      <div class="col-6">
-        <h2>Ready for Review</h2>
-        <p>Once a task has been completed, you must ask for it to be approved.</p>
-        <p>Assign to the recipient. Set task status as "Ready for Review". Remember to insert all relevant links i.e where did you post it? If it is on the agf.com or agfiq site, you should send the demo links as the full site would not have the changes yet. Also a direct link to the file uploaded would be needed. As soon as you submit, an email will be sent out.</p>
-      </div>
-    </div>
-
-    <div class="row justify-content-md-center">
-      <div class="col-6">
-        <img src="resources/spwir.jpg" alt="Week in review" width=100%>
-      </div>
-      <div class="col-6">
-        <h2>Logging Progress</h2>
-        <p>Usually tasks require a little bit of back and forth via "Return"ed SMARTrequests. However, as soon as a task has been approved (and published), you should log it in the <a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Week in Review</a>.</p>
-        <ol>
-          <li>Add new item.</li>
-          <li>Make a title (usually name of document or SMARTrequest)</li>
-          <li>Paste the link of the document (i.e. pdf) in the appropriate place i.e. Investor if on agf.com</li>
-          <li>Save</li>
-        </ol>
-        <p> Notes: </p>
-        <ul>
-          <li>If there are lots of separate documents, list each separately.</li>
-          <li>Do not paste the webqa/demo links i.e Only do this once the task has been approved and published.</li>
-          <li>Do not paste the index link.</li>
+        <!-- Dynamic nav pills -->
+        <ul class="nav nav-pills" role="tablist">
+          <li class="nav-item pill-start">
+            <a class="nav-link active" data-toggle="pill" href="#start">Starting Out</a>
+          </li>
+          <li class="nav-item pill-pdf">
+            <a class="nav-link" data-toggle="pill" href="#pdf">PDF Prep</a>
+          </li>
+          <li class="nav-item pill-share">
+            <a class="nav-link" data-toggle="pill" href="#share">SharePoint</a>
+          </li>
+          <li class="nav-item pill-cascade">
+            <a class="nav-link" data-toggle="pill" href="#cascade">Cascade</a>
+          </li>
+          <li class="nav-item pill-week">
+            <a class="nav-link" data-toggle="pill" href="#week">Week in Review</a>
+          </li>
+          <li class="nav-item pill-411">
+            <a class="nav-link" data-toggle="pill" href="#411">Product 411</a>
+          </li>
+          <li class="nav-item pill-ireport">
+            <a class="nav-link" data-toggle="pill" href="#ireport">iReport</a>
+            </li>
         </ul>
       </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-6">
-        <img src="resources/spcomplete.jpg" alt="Completing a request" width=100%>
+      <a href="javascript:window.print()"><button class="print-button"><span class="print-icon" align="right"></span></button></a>
+    </nav>
+  </header>
+
+  <!--Go to top button -->
+  <a id="topBtn" href="#">Back to top</a>
+
+  <div class="container">
+    <!-- Tab panes -->
+    <div class="tab-content">
+
+      <!-- Starting Out -->
+      <div id="start" class="container-inner tab-pane fade show active">
+        <div class="row justify-content-md-center">
+          <img src = "resources/start.png">
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/prepchrome.jpg" alt="chrome bookmarks" >
+          </div>
+          <div class="col-6">
+            <h2>Chrome Setup</h2>
+            <p>On the left are some recommended bookmarks.</p>
+            <p><a href="http://cascade01v:8080/login.act">Old Cascade</a>: This one is where <a href="http://smartlink/sma/smaweb/en/index.jsp">SMARTlink</a> is.             
+            </p>
+            <p><a href="http://cascade-pv01:8080/login.act">New Cascade</a>: This one is where the <a href="https://www.agf.com/ca/en/index.jsp">main AGF.com</a> is. It is a good idea to also have the <a href="http://webqa.agf.com/ca/en/index.jsp">demo server</a> bookmarked.           
+            </p>
+            <p><a href="http://www.agfiq.com/">AGFiQ</a>: This site is also on the New Cascade. It is a good idea to also have the <a href="http://webqa.agf.com/agfiq/agfiqweb/ca/en/index.jsp">demo server</a> bookmarked.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/prepie.jpg" alt="ie bookmarks" >
+          </div>
+          <div class="col-6">
+            <h2>Internet Explorer Setup</h2>
+            <p>I'm very sorry, but you really do need Internet Explorer at times. On the left are some recommended bookmarks.</p>
+            <p><a href="http://agfcollab/product/411/default.aspx">Product 411</a>: Bookmark this, you need to post Week in Reviews (see below) and other blog posts here.          
+            </p>
+            <p><a href="http://agfcollab/ws/dap/Lists/Tasks/eMarketing.aspx">Tasks</a>: Here is the list of SMARTrequests on SharePoint that you should be doing. See the Sharepoint section for more information.
+            </p>
+            <p><a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Week in Review</a>: As soon as you are completed a request please post here. See the Week in Review section for more information.
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/prepprint.jpg" alt="printpage" >
+          </div>
+          <div class="col-6">
+            <h2>Printing</h2>
+            <p>At least for us, our computers didn't have printing capabilities. There is another way to print.</p>
+            <p><a href="http://agf059.na.intra.agf.com/print/index.php">Enter the Internet Print Client</a>: Bookmark this too, by the way.         
+            </p>
+          </div>
+        </div>
+      </div><!-- End of Starting Out-->
+
+      <!-- PDF Prep -->
+      <div id="pdf" class="container-inner tab-pane fade">
+        <div class="row justify-content-md-center">
+          <img src="resources/pdf.png" >
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/pdfword.jpg" alt="save as PDF" >
+          </div>
+          <div class="col-6">
+            <h2>General</h2>
+            <p>If it is given to you as a Word Document, and it needs to be uploaded, chances are you should convert it to PDF format first.</p>
+            <p>If it is given to you as a PDF Document, check if it has been prepared by pressing Ctrl-D. If it isn't, see below and Ctrl-S (save) when done.</p>
+            <p><a href="agf-pdf.txt">Here is a reference sheet that will help you on this matter. Save it for quick access.</a></p>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/pdfmetadata.jpg" alt="PDF metadata" >
+          </div>
+          <div class="col-6">
+            <h2>Metadata</h2>
+            <p>Change the Title and Author. Usually Author will be AGF Investments Inc. for English documents and Placements AGF Inc. for French documents.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/pdfsecurity.jpg" alt="PDF Security tab" >
+          </div>
+          <div class="col-6">
+            <h2>Security</h2>
+            <p>This one, the second tab, is important. This ensures our PDFs cannot have its contents copy-pasted and is a small security safeguard that is part of policy.</p>
+            <ol>
+              <li>Check "Restrict Editing..." and the shaded out section will become available.</li>
+              <li>Printing method should be "HIGH RESOLUTION"</li>
+              <li>The Permissions password is "agfagf"</li>
+              <li>The Compatibility should be changed to "Acrobat 6.0 and later".</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/pdfinitview.jpg" alt="PDF Initial View tab" >
+          </div>
+          <div class="col-6">
+            <h2>Initial View</h2>
+            <p>The fourth tab. Just make sure the layout is "Single Page" and the Magnification is set to "Fit Width".</p>
+          </div>
+        </div>
+      </div><!-- End of PDF Prep-->
+
+      <!-- SharePoint -->
+      <div id="share" class="container-inner tab-pane fade">
+        <div class="row justify-content-md-center">
+          <img src="resources/sharepointlogo.png" />
+        </div>
+        <div class ="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/spstart.jpg" alt="assign to yourself"  />
+          </div>
+          <div class="col-6">
+            <h2>Starting Request</h2>
+            <p>When you first access the <a href="http://agfcollab/ws/dap/Lists/Tasks/eMarketing.aspx">eMarketing Tasks</a> page, there are certain tasks assigned to "DAP eMarketing" that have not been started yet. They should be completed in order of priority (see due date).</p>
+            <p>Click on the "Task Name" and edit task. Assign to yourself, and set the "Task Status" as "Started". This will indicate to other people that you have started this task (one task does not need the same person doing it twice!). This just for good communication.</p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/sprfr.jpg" alt="ready for review" >
+          </div>
+          <div class="col-6">
+            <h2>Ready for Review</h2>
+            <p>Once a task has been completed, you must ask for it to be approved.</p>
+            <p>Assign to the recipient. Set task status as "Ready for Review". Remember to insert all relevant links i.e where did you post it? If it is on the agf.com or agfiq site, you should send the demo links as the full site would not have the changes yet. Also a direct link to the file uploaded would be needed. As soon as you submit, an email will be sent out.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/spwir.jpg" alt="Week in review" >
+          </div>
+          <div class="col-6">
+            <h2>Logging Progress</h2>
+            <p>Usually tasks require a little bit of back and forth via "Return"ed SMARTrequests. However, as soon as a task has been approved (and published), you should log it in the <a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Week in Review</a>.</p>
+            <ol>
+              <li>Add new item.</li>
+              <li>Make a title (usually name of document or SMARTrequest)</li>
+              <li>Paste the link of the document (i.e. pdf) in the appropriate place i.e. Investor if on agf.com</li>
+              <li>Save</li>
+            </ol>
+            <p> Notes: </p>
+            <ul>
+              <li>If there are lots of separate documents, list each separately.</li>
+              <li>Do not paste the webqa/demo links i.e Only do this once the task has been approved and published.</li>
+              <li>Do not paste the index link.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/spcomplete.jpg" alt="Completing a request" >
+          </div>
+          <div class="col-6">
+            <h2>Completing Request</h2>
+            <p>Only once a task has been approved and logged can you remove it from the queue. This is because it will be much more difficult to access this request after doing this step.</p>
+            <ol>
+              <li>Assign to yourself.</li>
+              <li>Set Task status to "Complete". Save. You will be taken back to eMarketing tasks, sans the task you just completed.</li>
+            </ol>
+          </div>
+        </div>
+      </div><!-- End of SharePoint-->
+
+      <!-- New Cascade -->
+      <div id="cascade" class="container-inner tab-pane fade">
+        <div class="row justify-content-md-center">
+          <img src="resources/cascadelogo.png" >
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/dropdown-cascade.png"  />
+          </div>
+          <div class="col-6">
+            <h2>Switching Sites</h2>
+            <p>You will probably need to switch sites first before doing anything. This can be done by accessing the dropdown menu at the top left corner of Cascade. You will most likely be in "AGF Files" for most of your tasks.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/editing.jpg" alt="Image of AGF Files page"  >
+          </div>
+
+          <div class="col-6">
+            <h2>Uploading Files</h2>
+            <p>Sometimes you'll need to upload a file like a PDF or an image file to Cascade</p>
+            <p>Navigate to the folder you are uploading the file or document to. There's probably a similar file in the folder, so copy it and click on "Edit". Edit anything you need to (title, summary, date, etc.) and keep in mind of the naming conventions from the other files in the folder. Drag the file that you're uploading to the bottom of the content tab where it says "Drop a file here". Hit submit, uncheck "use workflow", and publish the file.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/relationships.jpg" alt="Image of relationships" >
+          </div>
+
+          <div class="col-6">
+            <h2>Replacing Files</h2>
+            <p>You may need to replace a PDF, image file, or other files in Cascade.</p>
+            <p>Navigate to the folder containing the file you're replacing. Open the file you're replacing and click on the "Edit" button on the top right. You may or may not need to edit the title or any other information depending on the request. Drag the new file to the bottom of the content tab. Submit, uncheck "use workflow", and publish the file. If the file is being used somewhere on the site, click on "More" and go to relationships. Click on the pages under relationships and publish them to update them with the new file.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/sourcetext.jpg" alt="Image of sourcetext" >
+          </div>
+
+          <div class="col-6">
+            <h2>Editing Text</h2>
+            <p>You will often need to edit some text for the AGF website such as an article or a module on the site.</p>
+            <p>First find the page you will be working on through Cascade. The search bar at the top right of Cascade can be handy to find the page. Once you're at the page, click on "Edit". Scroll down a bit and you'll see some items. Find the item containing the text you'll be editing and click on "Source Code" (the icon that looks like "&lt;&gt;") to edit the text. Be careful with the formatting if you're not familiar with HTML. Replace or change the text inside (it'll probably be between the "&lt;p&gt;&lt;/p&gt;" for content and "&lt;h1&gt;&lt;/h1&gt;" or something similar for headings). Submit, uncheck "use workflow" and publish the site.
+            </p>
+          </div>
+        </div>
+      </div><!-- End of New Cascade-->
+
+      <!-- Week in Review -->
+      <div id="week" class="container-inner tab-pane fade">
+        <div class="row justify-content-md-center">
+          <img src="resources/weekrev.png">
+        </div>
+
+        <div class="row justify-content-md-center">
+
+          <div class="col-6">
+            <img src="resources/newupdate.png" alt="Image of Week in Review page"  >
+          </div>
+          <div class="col-6">
+            <h2>Adding an Update</h2>
+            <p>Once you're at the Week in Review page, click on "Document Updates Week in Review" unless you have been specifically instructed to create an item in the "Webpage Updates Week in Review" page (usually this a change related to agfcollab). Click "new item" near the top of the page.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/weekinfo.png" alt="Image of creating a new update" >
+          </div>
+          <div class="col-6">
+            <h2>Inputting the Info</h2>
+            <p>Fill in the information as needed, including whether it is a new document or an update to one. The fields after the date field are where you insert the relevant links. You will mainly be pasting AGF links as SmartLink has been deprecated as of July 2018 so focus on Investor EN/FR and Advisor EN/FR. If you're unsure whether to put the links belong in Advisor or Investor, look at some past Week in Review items or ask your supervisor (probably Doug). Hit save and you're done!</p>
+          </div>
+        </div> 
+      </div><!-- End of Week in Review-->
+
+      <!--Product 411 -->
+      <div id="411" class="container-inner tab-pane fade">
+        <div class="row justify-content-md-center">
+          <img src="resources/411.png">
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/export.png" >
+            <img src="resources/exportexcel.png" >
+            <img src="resources/saveashtml.png" >
+          </div>
+          <div class="col-6">
+            <h2>Exporting to Excel</h2>
+            <p>First off, when doing Product 411, make sure you use Internet Explorer and not Chrome. Open both the <a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Webpage Week in Review</a> and the <a href="http://agfcollab/it/fd/Lists/docwr/Last%207%20days.aspx">Document Updates Week in Review</a> in IE. </p>
+
+            <p>Click "export" and then click "List" on the top left corner. Open/Save the Excel file and click "Enable" at the security notice. Copy the first column(column A) and paste it into notepad and save it. Do this for both types of Week in Reviews, you can either save two files or work with one file at a time by moving onto the next step and inserting the file into an e-mail, then going back to the file and replacing the content with the other Week in Review and inserting it again.</p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/formattingemail.png" >
+          </div>
+          <div class="col-6">
+            <h2>Inserting into Outlook</h2>
+            <p>Make a new email in Outlook (we won't be sending the email it's just for formatting). Click "Attach File", select one of the Week in Reviews, click the ▼ beside “Insert”, and then select “Insert as text”.</p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/exampleemail.png" >
+          </div>
+          <div class="col-6">
+            <h2>Formatting in Outlook</h2>
+            <p>Click on the table you just inserted and click on "design" at the top and select the specified layout. Now the table should be fully formatted. Now insert the other Week in Review into the same email and repeat the steps above. 
+            </p> 
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/createblog.png" >
+            <img src="resources/paste.png" >
+            <img src="resources/bloginfo.png" >
+          </div>
+          <div class="col-6">
+            <h2>Posting</h2>
+            <p>Copy the formatted tables and go to the <a href="http://agfcollab/product/411/default.aspx">Product 411</a> page. Click "Create a post" and paste the tables by clicking the under ▼ "Paste" and selecting "Paste". Now copy the headings provided below and put them above the corresponding table. Don't forget to fill in the dates!
+              Copy these headings:<br>
+              <span lang="EN-CA" style="font-size:22.0pt;line-height:115%; font-family:&quot;Century Gothic&quot;,sans-serif;color:#2E74B5">AGF.com, AGFAdvisor.com, AGF.com/Institutional, SMARTLink Webpage Week In Review ([MONTH] DD, YYYY – [MONTH] DD, YYYY)</span><br>
+              <span lang="EN-CA" style="font-size:22.0pt;line-height:115%;
+              font-family:&quot;Century Gothic&quot;,sans-serif;color:#2E74B5">Document updates Week In
+              Review ([MONTH] DD, YYYY – [MONTH] DD, YYYY)</span>
+            </p>
+            <p>Fill in the title field, it should look something like "Week in Review - MONTH DAY, YEAR - MONTH DAY, YEAR". Leave the summary blank. In the categories section, select "Week in Review", click "Add", and change the status to "Published". Double check everything and hit the publish button when you're ready.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/example411.png" >
+          </div>
+          <div class="col-6">
+            <h2>Example 411</h2>
+            <p>This is what it should look like after you publish the 411. Make sure everything looks right before moving onto the next step.</p> 
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/411notif.png" >
+          </div>
+          <div class="col-6">
+            <h2>Notifying AGF</h2>
+            <p>Now back at the Product 411 page, click "All Posts" and click the three dots beside your Week in Review. Click "Send Notification" which will send an email to everyone at AGF linking them to your Week in Review.</p> 
+          </div>
+        </div>
+      </div><!-- End of Product 411-->
+      <div id="ireport" class="container-inner tab-pane fade">
+        <div class="row justify-content-md-center">
+          <img src="resources/icon.png" />
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/ireport_familiar.png" />
+          </div>
+          <div class="col-6">
+            <h2>Getting Familiar with iReport</h2>
+            <p>It's very unlikely that you'll have to make a report from scratch, you'll probably be copying an existing report and changing the contents.</p>
+            <p>Open up the .jrxml file that you need to work on, you should be on Designer View on default. Designer View is simple to use as you can just simply click on an element and make a quick edit, or select an element from the report inspector on the left to edit. However, as you start adding more detail bands and textfields, the Designer View will get progressively laggier. Changes you make in Designer View can be seen in XML View and vice versa. XML View is very useful when you have a lot of elements and the Designer View is getting difficult to use due to lag. There isn't any lag in XML view if you have a lot of elements, and you can use the search tool (Ctrl + F) which makes it easy to navigate to the specific element you want to change.</p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/ireport_run.png"/>
+          </div>
+          <div class="col-6">
+            <h2>Compiling and Generating Reports</h2>
+            <p>When you are finished editing a page, click the "Compile Report" button near the Design View and XML View buttons. If the report is a subreport, then you must also compile the parent reports. Then, head over to Eclipse onto the Java file that is responsible for creating the PDF. Make sure you right click the folder that contained the jrxml files you just edited, and hit "refresh". This ensures that the Java file doesn't run a cached version on the jrxml/jasper files. Then hit run. If everything is properly linked, there should be no errors and a PDF will generated at the specified folder.</p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/ireport_detail.png" />
+          </div>
+          <div class="col-6">
+            <h2>Detail Bands</h2>
+            <p>Detail bands make up each section of the report. Detail bands have a band height that you can adjust when you select a band. Make sure you set the band height so that it has enough room to fit all of its contents. Generally, you would only find three different elements inside detail bands: Textfields, Lines, and Subreports. Each of these elements have a height that you can set. Usually lines and subreports have a height of 1, and textfields have a height of around 10 most of the time. If you need to add one of these elements and there's nothing to copy, then you can open the Palette window by clicking Window>Palette or using the shortcut CTRL+SHIFT+8. From the palette window, drag the element onto the detail band.</p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/ireport_properties.png" />
+          </div>
+          <div class="col-6">
+            <h2>Properties</h2>
+            <p>Besides height, there are other important properties you should paying attention to. For starters, left and top are used for positioning elements and width is self-explanatory. Keep the elements' heights in mind when positioning them so they don't overlap. However, there a few cases where you want two textfields on top of each other with a print expression attached to both.</p>
+            <p>There are a few textfield properties that you should make sure are set. First, make sure all textfields' styles are set to "field(reference)". Set Position Type to "Float" and Stretch Type to "No stretch". Also, make sure "Print Repeated Values", "Remove Line When Blank", "Print When Detail Overflows", "Blank When Null", and "Stretch With Overflow" are all checked. Lastly, make sure Expression Class is on the correct selection. Depending if the Text Field Expression value is a string or boolean, select the appropriate Expression Class from the dropdown.</p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6" id="expressions">
+            <img src="resources/ireport_expressions.png" />
+            <img src="resources/ireport_fieldsparameters.png" />
+            <img src="resources/ireport_java_declarations.png" />
+            <img src="resources/ireport_java_set_values.png" />
+          </div>
+          <div class="col-6">
+            <h2>Expressions, Resources, Parameters, and Fields</h2>
+            <p>Now to actually display stuff in textfields, you will need to edit the textfield's "Text Field Expression". You'll most likely be using one or a combination of $R{resource_name}, $F{field_name}, and $P{parameter_name}. Also you can set a condition on an element to display it only when the condition is met using the "Print When Expression". For example, a Print When Expression of "$F{name}.equals('Felix')" would mean the element would only display if the value passed to the "name" field is Felix. </p>
+            <p>$R is used for localized strings from a properties file. You will typically use this for things such as labels and headings which don't change. "resource_name" refers to the name of the resource found in the properties file that has the text you want to display. So, if I used $R{report.owner.type.primary} from my i18n_turboApps.properties file, then the textfield would display "Primary Owner" or "Titulaire" depending on the report's locale. This means that when the report's locale is changed to French, all resource strings will also display their French text provided it exists in the French properties file. So when creating any new resources in the properties file, remember to add the French version to the French properties file as well.</p>
+            <p>Fields($F) and Parameters($P) are passed from the java files and are both used for variable text such as a client's name. If you're using fields and are working in a subreport, make sure you're referencing the correct Class Object in the subreport's Data Source Expression (you can find this in the subreport's properties window through the parent report). For example, an example of a data source expression is "new net.sf.jasperreports.engine.data.<br/>JRBeanCollectionDataSource(java.util.Collections.singleton<br/>($F{subRptOwnerInfo}))" where $F{subRptOwnerInfo} is the class object referenced through a field. If you're using parameters and are working in a subreport, you have to add a corresponding field to the subreport's parent report. Also in the subreport's properties below Data Source Expression, you have to add the parameter with the corresponding field expression to "Parameters". Both parameters and fields will require a declaration, a getter, and a setter in a java file for that subreport. Their values can be set in the main java file, remember that parameters are set from the subreport's parent's fields.</p>
+          </div>
+        </div>
+         <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/ireport_testing.png" id="ireport_testing"/>
+            <img src="resources/ireport_commit.png" />
+          </div>
+          <div class="col-6">
+            <h2>Testing and Comitting to SVN</h2>
+            <p>When you have finished making your changes, compiled the report, and the PDF looks good to you, then you have to perform a few other checks and tests to make sure the PDF won't mess up. The first things you should check for are possibly long inputs for fields like names, addresses, etc. where the value can be almost anything. You need to make sure the text correctly moves to the next line without any weird spacing problems (usually due to Stretch Type not being on "No Stretch"). You should also see what happens when a subreport meets a page break and play around with some settings if it doesn't behave how you want it. The next thing you should check is if the report looks fine in French. Double-check that all of the resources are properly translated into French and all of the spacing is fine in the French report. Finally, there should have been some logic given by your project lead or supervisor that you need to implement as Print When Expressions. So, you need to verify that all your print when expressions are working correctly.</p>
+            <p>After you've done all the checks and everything looks good, you should commit your changes to SVN. First in Eclipse's project explorer, find your local folder and refresh it (like how you would when you want to generate a report). Then right click it again and go to "Team" and click on "Synchronize With Repository". Then below, under "SVN" right click the folder and click "Commit..". Write a brief commit message and check all the things you want to commit and click "OK". You may also need to let your project lead know that you've submitted changes (I usually walk up to his desk but sometimes I send a skype message).</p>
+          </div>
+        </div>
+      </div><!-- End of iReport -->
+    </div><!-- End of Tab Content -->
+    <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="imgModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="modal-body">
+          <img src="" class="modal-image" style="width: 100%;">
+        </div>
       </div>
-      <div class="col-6">
-        <h2>Completing Request</h2>
-        <p>Only once a task has been approved and logged can you remove it from the queue. This is because it will be much more difficult to access this request after doing this step.</p>
-        <ol>
-          <li>Assign to yourself.</li>
-          <li>Set Task status to "Complete". Save. You will be taken back to eMarketing tasks, sans the task you just completed.</li>
-        </ol>
-      </div>
     </div>
-  </div>
-  <!-- New Cascade -->
-  <div id="cascade" class="container tab-pane fade">
-    <div class="row justify-content-md-center">
-      <img src="resources/cascadelogo.png" >
-    </div>
-
-    <div class="row justify-content-md-center">
-
-     <div class="col-6">
-      <img src="resources/dropdown-cascade.png" width="100%">
-    </div>
-
-    <div class="col-6">
-      <h2>Switching Sites</h2>
-      <p>You will probably need to switch sites first before doing anything. This can be done by accessing the dropdown menu at the top left corner of Cascade. You will most likely be in "AGF Files" for most of your tasks.
-      </p>  
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center">
-    <div class="col-6">
-      <img src="resources/editing.jpg" alt="Image of AGF Files page" width="100%" >
-    </div>
-
-    <div class="col-6">
-      <h2>Uploading Files</h2>
-      <p>Sometimes you'll need to upload a file like a PDF or an image file to Cascade</p>
-      <p>Navigate to the folder you are uploading the file or document to. There's probably a similar file in the folder, so copy it and click on "Edit". Edit anything you need to (title, summary, date, etc.) and keep in mind of the naming conventions from the other files in the folder. Drag the file that you're uploading to the bottom of the content tab where it says "Drop a file here". Hit submit, uncheck "use workflow", and publish the file.</p>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center">
-    <div class="col-6">
-      <img src="resources/relationships.jpg" alt="Image of relationships" width="100%">
-    </div>
-
-    <div class="col-6">
-      <h2>Replacing Files</h2>
-      <p>You may need to replace a PDF, image file, or other files in Cascade.</p>
-      <p>Navigate to the folder containing the file you're replacing. Open the file you're replacing and click on the "Edit" button on the top right. You may or may not need to edit the title or any other information depending on the request. Drag the new file to the bottom of the content tab. Submit, uncheck "use workflow", and publish the file. If the file is being used somewhere on the site, click on "More" and go to relationships. Click on the pages under relationships and publish them to update them with the new file.</p>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center">
-    <div class="col-6">
-      <img src="resources/sourcetext.jpg" alt="Image of sourcetext" width="100%">
-    </div>
-
-    <div class="col-6">
-      <h2>Editing Text</h2>
-      <p>You will often need to edit some text for the AGF website such as an article or a module on the site.</p>
-      <p>First find the page you will be working on through Cascade. The search bar at the top right of Cascade can be handy to find the page. Once you're at the page, click on "Edit". Scroll down a bit and you'll see some items. Find the item containing the text you'll be editing and click on "Source Code" (the icon that looks like "&lt;&gt;") to edit the text. Be careful with the formatting if you're not familiar with HTML. Replace or change the text inside (it'll probably be between the "&lt;p&gt;&lt;/p&gt;" for content and "&lt;h1&gt;&lt;/h1&gt;" or something similar for headings). Submit, uncheck "use workflow" and publish the site.
-      </p>
-    </div>
-  </div>
 </div>
-<!-- Week in Review -->
-<div id="week" class="container tab-pane fade">
-  <div class="row justify-content-md-center">
-    <img src="resources/weekrev.png">
-  </div>
-
-  <div class="row justify-content-md-center">
-
-    <div class="col-6">
-      <img src="resources/newupdate.png" alt="Image of Week in Review page" width="100%" >
-    </div>
-    <div class="col-6">
-      <h2>Adding an Update</h2>
-      <p>Once you're at the Week in Review page, click on "Document Updates Week in Review" unless you have been specifically instructed to create an item in the "Webpage Updates Week in Review" page. Click "new item" near the top of the page.</p>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center">
-    <div class="col-6">
-      <img src="resources/weekinfo.png" alt="Image of creating a new update" width="100%">
-    </div>
-    <div class="col-6">
-      <h2>Inputting the Info</h2>
-      <p>Fill in the information as needed, including whether it is a new document or an update to one. The fields after the date field are where you insert the relevant links. You will mainly be pasting Smartlink links so focus on SMARTLink EN and SMARTLink FR. Hit save and you're done!</p>
-    </div>
-  </div>
-
-
-</div>
-
-<!--Product 411 -->
-<div id="411" class="container tab-pane fade">
-  <div class="row justify-content-md-center">
-    <img src="resources/411.png">
-  </div>
-
-  <div class="row justify-content-md-center">
-    <div class="col-6">
-      <img src="resources/export.png" width=100%>
-      <img src="resources/exportexcel.png" width=100%>
-      <img src="resources/saveashtml.png" width=100%>
-    </div>
-    <div class="col-6">
-      <h2>Exporting to Excel</h2>
-      <p>First off, when doing Product 411, make sure you use Internet Explorer and not Chrome. Open both the <a href="http://agfcollab/it/fd/Lists/pagewr/Last%207%20Days.aspx">Webpage Week in Review</a> and the <a href="http://agfcollab/it/fd/Lists/docwr/Last%207%20days.aspx">Document Updates Week in Review</a> in IE. </p>
-
-      <p>Click "export" and then click "List" on the top left corner. Open/Save the Excel file and click "Enable" at the security notice. Copy the first column(column A) and paste it into notepad. Save the notepad as a .html file by putting ".html" instead of ".txt" at the end of the name when saving the file. Do this for both types of Week in Reviews.</p>
-    </div>
-  </div>
-
-
-
-  <div class="row justify-content-md-center">
-    <div class="col-6">
-      <img src="resources/formattingemail.png" width=100%>
-    </div>
-    <div class="col-6">
-      <h2>Inserting into Outlook</h2>
-      <p>Make a new email in Outlook (we won't be sending the email it's just for formatting). Click "Attach File", select one of the Week in Reviews, click the ▼ beside “Insert”, and then select “Insert as text”.</p>
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center">
-    <div class="col-6">
-      <img src="resources/exampleemail.png" width=100%>
-    </div>
-    <div class="col-6">
-      <h2>Formatting in Outlook</h2>
-      <p>Click on the table you just inserted and click on "design" at the top and select the specified layout. Now the table should be fully formatted. Now insert the other Week in Review into the same email and repeat the steps above. 
-      </p> 
-    </div>
-  </div>
-
-  <div class="row justify-content-md-center">
-
-    <div class="col-6">
-      <img src="resources/createblog.png" width=100%>
-      <img src="resources/paste.png" width=100%>
-      <img src="resources/bloginfo.png" width=100%>
-    </div>
-    <div class="col-6">
-      <h2>Posting</h2>
-      <p>Copy the formatted tables and go to the <a href="http://agfcollab/product/411/default.aspx">Product 411</a> page. Click "Create a post" and paste the tables by clicking the under ▼ "Paste" and selecting "Paste". Now copy the headings provided below and put them above the corresponding table. Don't forget to fill in the dates!
-        Copy these headings:<br>
-        <span lang="EN-CA" style="font-size:22.0pt;line-height:115%; font-family:&quot;Century Gothic&quot;,sans-serif;color:#2E74B5">AGF.com, AGFAdvisor.com, AGF.com/Institutional, SMARTLink Webpage Week In Review ([MONTH] DD, YYYY – [MONTH] DD, YYYY)</span><br>
-        <span lang="EN-CA" style="font-size:22.0pt;line-height:115%;
-        font-family:&quot;Century Gothic&quot;,sans-serif;color:#2E74B5">Document updates Week In
-        Review ([MONTH] DD, YYYY – [MONTH] DD, YYYY)</span>
-      </p>
-      <p>Fill in the title field, it should look something like "Week in Review - MONTH DAY, YEAR - MONTH DAY, YEAR". Leave the summary blank. In the categories section, select "Week in Review", click "Add", and change the status to "Published". Double check everything and hit the publish button when you're ready.
-      </div>
-    </div>
-    
-    <div class="row justify-content-md-center">
-      <div class="col-6">
-        <img src="resources/example411.png" width=100%>
-      </div>
-      <div class="col-6">
-        <h2>Example 411</h2>
-        <p>This is what it should look like after you publish the 411. Make sure everything looks right before moving onto the next step.</p> 
-      </div>
-    </div>
-
-    <div class="row justify-content-md-center">
-      <div class="col-6">
-        <img src="resources/411notif.png" width=100%>
-      </div>
-      <div class="col-6">
-        <h2>Notifying AGF</h2>
-        <p>Now back at the Product 411 page, click "All Posts" and click the three dots beside your Week in Review. Click "Send Notification" which will send an email to everyone at AGF linking them to your Week in Review.</p> 
-      </div>
-    </div>
-
-  </div>
-
-
-
-
-</div>
-</div>
-
+  </div><!-- End of container-inner -->
 </body>
 </html>
