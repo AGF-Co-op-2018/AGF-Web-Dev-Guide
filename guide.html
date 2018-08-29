@@ -48,6 +48,9 @@
           <li class="nav-item pill-ireport">
             <a class="nav-link" data-toggle="pill" href="#ireport">iReport</a>
             </li>
+            <li class="nav-item pill-address">
+            <a class="nav-link" data-toggle="pill" href="#address">AddressComplete</a>
+            </li>
         </ul>
       </div>
       <a href="javascript:window.print()"><button class="print-button"><span class="print-icon" align="right"></span></button></a>
@@ -450,7 +453,83 @@
             <p>After you've done all the checks and everything looks good, you should commit your changes to SVN. First in Eclipse's project explorer, find your local folder and refresh it (like how you would when you want to generate a report). Then right click it again and go to "Team" and click on "Synchronize With Repository". Then below, under "SVN" right click the folder and click "Commit..". Write a brief commit message and check all the things you want to commit and click "OK". You may also need to let your project lead know that you've submitted changes (I usually walk up to his desk but sometimes I send a skype message).</p>
           </div>
         </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/ireport_classpath.png" id="ireport_classpath"/>
+            <img src="resources/ireport_lagfix.png" />
+          </div>
+          <div class="col-6">
+            <h2>Temporarily Fixing the Lag in iReport</h2>
+            <p>Before you go fixing the iReport lag, take a screenshot of your classpaths as you're going to need to set them again after the fix. The classpath can be found by going to iReport and clicking Tools>Options>Classpath. Now navigate to your User folder and open the .ireport folder and then the only folder in there which should be whatever version of iReport you have. You should be in C:\Users\YOUR_USERNAME\.ireport\VERSION_NUMBER\ now. Delete everything in the folder and relaunch iReport. Now go back to classpaths in iReport and re-add all the classpaths you had before (this is why we took a screenshot). iReport should work smoothly again, but it will eventually start lagging again and you will have to repeat this process.</p>
+          </div>
+        </div>
       </div><!-- End of iReport -->
+
+      <div id="address" class="container-inner tab-pane fade">
+        <div class="row justify-content-md-center">
+          <img src="resources/addresscomplete.png">
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/addresscomplete_initial.png" >
+          </div>
+          <div class="col-6">
+            <h2>Initial Setup</h2>
+            <p>If you need to build a Web Application for TurboApps, then you may need to implement AddressComplete onto the page. AddressComplete allows the user to look up any address in Canada and it autocompletes the relevant information like address, postal code, city, etc., into textfields you set up.</p>
+            <p>First head over to <a href="https://www.canadapost.ca/pca/">the addresscomplete website. </a> You're going to want to create a free trial account so you can implement addresscomplete and test it on your machine. When you create an installation, you will need to input an address where the AddressComplete will be used. For now just add something like localhost:8000/FILENAME.html and hit "Next"</p>
+          </div>
+        </div>
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/addresscomplete_key.png" />
+          </div>
+          <div class="col-6">
+            <h2>Adding the Code Snippet</h2>
+            <p>Copy the code snippet given to you into your html file. As you can see, the code snippet contains a key unique only to the installation you just made. When you use another installation because your trial ran out and you need to make a new free account, or if the application you built is being pushed into testing server, then you need to replace the key with the new installation's key. Then click "I've pasted and uploaded my code" and then just continue even though it says it can't find the code snippet.</p>
+          </div>
+        </div> 
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/addresscomplete_general.png"/>
+            <img src="resources/addresscomplete_advanced.png"/>
+          </div>
+          <div class="col-6">
+            <h2>Dashboard and Installation Settings</h2>
+            <p>On the dashboard you can find your all of your installations and you can disable or enable the installations from the dashboard as well. Clicking on your installation will bring you to the general settings page for the installation you clicked on.</p>
+            <p> Here you can rename the installation, and add more URLs that would use the HTML page. Add all of the URLs that use the web application, I usually just add the local path to the file as well as localhost (add the localhost one again even though you inputted it earlier). Note that you can include other html pages as long as the textfields are the same. For example, if you have a French version of the page, it should have the same textfield ids and names so you can just add it to the valid URLs and it will work fine.</p>
+            <p>If it's your first installation of AddressComplete on an Web Application, then you'll have to go through the initial setup process for the installation. In the advanced settings tab of the installation, turn on setup mode and click "save" at the bottom. Then go back to the advanced settings tab to get and copy the verification code as the code may change after you turn on setup mode.</p>
+          </div>
+        </div> 
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/addresscomplete_fieldgroups.png"/>
+          </div>
+          <div class="col-6">
+            <h2>Setting Up Field Groups</h2>
+            <p>First you should open up Command Prompt and navigate to the folder containing your html file. You'll want to start a localhost server by typing "python -m SimpleHTTPServer". Open up the HTML and you should be prompted to input the setup verification code. Click "No" when it asks if your fields populated correctly and it will then show you all the different sets of fields that are currently grouped together. You'll have to configure these groups as the auto-generated groups are probably not what you had in mind. You'll want to only make one group for each AddressComplete lookup you have on your page, you can get rid of all the other field groups.</p>
+          </div>
+        </div> 
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/addresscomplete_fields.png"/>
+          </div>
+          <div class="col-6">
+            <h2>Configuring the Fields</h2>
+            <p>Configuring the fields is pretty simple, just match the textfield ids with their function. For example, setting a field to "City" means that when you look up an address with AddressComplete, it will automatically fill in the field with the id associated with "city" with the appropriate city. The lookup field should be set to Search Input, it should be the only field that can look up addresses. To verify this, click the three dots beside each field and make sure that the lookup field is the only one that has search checked, everything else should have populate only. Once you are finished configuring your field groups, click "Yes" and setup mode will automatically be turned off.</p>
+          </div>
+        </div> 
+        <div class="row justify-content-md-center">
+          <div class="col-6">
+            <img src="resources/addresscomplete_js.png" />
+            <img src="resources/addresscomplete_example.png"/>
+          </div>
+          <div class="col-6">
+            <h2>Test It Out</h2>
+            <p>Before you try it out, you have to add the AddressComplete listener code into your javascript file. Now, you can try it out and make sure that AddressComplete is working on your page. Start typing an address or postal code into the AddressComplete lookup, if everything is working correctly then a bunch of addresses should start populating. Then, select one of those addresses and make sure that your fields are being properly auto-filled. Note that the entire postal code is auto-filled, so if your postal code is split into two fields then you'll have to handle this in the javascript file.</p>
+          </div>
+        </div> 
+      </div><!-- End of AddressComplete -->
+
     </div><!-- End of Tab Content -->
     <div class="modal fade" id="imgModal" tabindex="-1" role="dialog" aria-labelledby="imgModal" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">

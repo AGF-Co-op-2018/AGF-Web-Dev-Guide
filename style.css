@@ -1,5 +1,6 @@
 body {
   background-color: #ED5A36;
+  padding-right: 0px !important;
 }
 .container .col-6 img {
   width: 100%;
@@ -115,6 +116,7 @@ h2 {
   color: white;
 }
 
+/* The print button was implemented by Cynthia Wang */
 
 button.print-button {
   width: 60px;
@@ -208,4 +210,17 @@ button.print-button:hover .print-icon::after {
 
 #ireport_testing {
   margin-bottom: 20px;
+}
+
+.modal-open {
+  overflow-y: scroll;
+}
+
+.modal-dialog {
+  overflow-y: initial !important;
+}
+
+.modal-body {
+  max-height: 850px;
+  overflow-y: auto;
 }
